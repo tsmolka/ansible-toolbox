@@ -16,5 +16,6 @@ with open('requirements.txt') as fd:
               'ansible-role = ansible_toolbox.cmd.role:main',
               'ansible-task = ansible_toolbox.cmd.task:main',
               'ansible-eval = ansible_toolbox.cmd.eval:main',
+              'ansible-vault-password = ansible_toolbox.cmd.vault_password:main',
           ]},
           )
