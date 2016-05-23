@@ -1,16 +1,16 @@
-This repository contains a collection of tools that might be useful when
+This repository contains a collection of scripts that might be useful when
 working with [Ansible][].
 
 ## Scripts
 
-* `ansible-eval` script allows you to evaluate arbitrary expression directly from
+* `ansible-eval` allows you to evaluate arbitrary expression directly from
 the command line.
-* `ansible-role` script allows you to run a role from the command line.
-* `ansible-task` script allows you to run a task list directly from
+* `ansible-role` allows you to run a role from the command line.
+* `ansible-task` allows you to run a task list directly from
 the command line.
-* `ansible-password-vault` script allows you to pass password to `ansible-vault` via environment variables (e.g. `ANSIBLE_VAULT_PASSWORD`).
+* `ansible-password-vault` allows you to pass password to `ansible-vault` via environment variables (e.g. `ANSIBLE_VAULT_PASSWORD`).
 
-## Examples
+## Example
 
 For example, if you have a role `roles/testrole`, you can run it on
 localhost like this:
