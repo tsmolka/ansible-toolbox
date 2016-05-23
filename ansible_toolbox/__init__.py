@@ -1,2 +1,2 @@
-__version__ = '0.2'
-__author__ = 'Lars Kellogg-Stedman <lars@oddbit.com>'
+__version__ = '0.2.1'
+__author__ = 'Tobias Smolka <tsmolka@gmail.com>'

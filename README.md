@@ -1,7 +1,5 @@
-This repository contains a collection of tools that I find useful in
+This repository contains a collection of tools that might be useful when
 working with [Ansible][].
-
-[ansible]: http://ansible.com/
 
 The `ansible-role` script allows you to run a role from the command line.
 
@@ -43,4 +41,10 @@ The following additional options are simply proxies to the equivalent
 You can run:
 
     python setup.py install
+
+## Credits
+
+Big thanks to Lars Kellogg-Stedman and his https://github.com/larsks/ansible-toolbox/
+
+[ansible]: http://ansible.com/
 

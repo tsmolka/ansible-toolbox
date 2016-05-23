@@ -3,9 +3,9 @@ from ansible_toolbox import __version__ as version
 
 with open('requirements.txt') as fd:
     setup(name='ansible-toolbox',
-          author='Lars Kellogg-Stedman',
-          author_email='lars@oddbit.com',
-          url='https://github.com/larsks/ansible-role',
+          author='Tobias Smolka',
+          author_email='tsmolka@gmail.com',
+          url='https://github.com/tsmolka/ansible-toolbox',
           version=version,
           install_requires=fd.readlines(),
           packages=find_packages(),
