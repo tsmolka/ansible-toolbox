@@ -25,7 +25,10 @@ class BaseApp (object):
                        action='append',
                        default=[])
         p.add_argument('--connection', '-c')
-
+        p.add_argument('--tags', '-t',
+                       action='append',
+                       default=[])
+        
         g = p.add_argument_group('Inventory')
         g.add_argument('-i', '--inventory')
         g.add_argument('--hosts', '-H',
@@ -49,7 +52,8 @@ class BaseApp (object):
     def build_command_line(self, args):
         cmd = []
 
-        ap_args = [('-e', x) for x in args.extra_vars]
+        ap_args = [('-e', x) for x in args.extra_vars] + [('-t', x) for x in args.tags]
+        
         if args.inventory:
             cmd.extend(('-i', args.inventory))
 
